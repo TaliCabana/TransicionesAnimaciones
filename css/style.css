@@ -7,3 +7,19 @@ body {
 main {
     flex-grow: 1;
 }
+
+/* Ejemplo de transición de color de fondo */
+.cambioColor{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+.cambioColor:hover{
+    background-color: rgb(41, 41, 107);
+}
