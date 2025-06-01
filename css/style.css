@@ -23,3 +23,14 @@ main {
 .cambioColor:hover{
     background-color: rgb(41, 41, 107);
 }
+
+/* Ejemplo cambio de tamaño de tipografía */
+.parrafoGrande{
+    font-size: 1rem;
+    transition: font-size 500ms ease-out;
+}
+
+.parrafoGrande:hover{
+    font-size: 1.5rem; /* 1rem = 16px */
+    cursor: pointer;
+}
