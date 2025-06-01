@@ -27,10 +27,24 @@ main {
 /* Ejemplo cambio de tamaño de tipografía */
 .parrafoGrande{
     font-size: 1rem;
-    transition: font-size 500ms ease-out;
+    transition: font-size 400ms ease-out;
 }
 
 .parrafoGrande:hover{
     font-size: 1.5rem; /* 1rem = 16px */
+    cursor: pointer;
+}
+
+.opacidad{
+    background-color: lightskyblue;
+    width: 200px;
+    height: 100px;
+    color: black;
+    opacity: 0.5;
+    transition: opacity 200ms ease-in;
+}
+
+.opacidad:hover{
+    opacity: 1;
     cursor: pointer;
 }
