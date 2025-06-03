@@ -48,3 +48,24 @@ main {
     opacity: 1;
     cursor: pointer;
 }
+
+.textoSubrayado{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.textoSubrayado::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0%;
+    background-color: aqua;
+    transition: width 500ms linear;
+}
+
+.textoSubrayado:hover::after{
+    width: 100%;
+}
